@@ -1,4 +1,4 @@
-package com.secure.talkme;
+package com.secure.letschat;
 
 import android.content.Context;
 
@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-
-        assertEquals("com.secure.talkme", appContext.getPackageName());
+        assertEquals("com.secure.letschat", appContext.getPackageName());
     }
 }

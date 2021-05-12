@@ -1,4 +1,4 @@
-package com.secure.talkme;
+package com.secure.letschat;
 
 import org.junit.Test;
 

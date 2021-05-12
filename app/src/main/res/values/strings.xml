@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">talkme</string>
+    <string name="app_name">Let\'s chat</string>
+    <string name="error_string">Somthing went wrong</string>
 </resources>

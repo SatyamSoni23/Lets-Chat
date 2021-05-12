@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash"
+        android:alpha="0.8" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="25dp"
+        android:autoSizePresetSizes="28dp"
+        android:autoSizeTextType="uniform"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@font/langar_regular"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/subname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:autoSizeMaxTextSize="22dp"
+        android:autoSizeMinTextSize="18dp"
+        android:autoSizePresetSizes="15dp"
+        android:autoSizeTextType="uniform"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by Innogenix"
+        android:gravity="center_horizontal|top"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@font/pt_sans_narrow_regular"
+        android:layout_below="@id/name" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_image"
+        android:padding="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/subname" />
+</RelativeLayout>
