@@ -1,5 +1,5 @@
 # Lets-Chat
-Android Chat app using MQTT client and HiveMQ public broker with smart firebase sugeestion reply integration.
+Android Chat app using MQTT client and HiveMQ public broker with firebase smart reply integration.
 
 ## Dependency
 
